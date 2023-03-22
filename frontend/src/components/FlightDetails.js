@@ -8,7 +8,7 @@ const FlightDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getDetails();
-      setdetails(data.data.data);
+      setdetails(data?.data?.data);
       //   console.log("get", data);
     };
     fetchData();

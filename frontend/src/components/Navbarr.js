@@ -24,7 +24,7 @@ const Navbarr = () => {
           <Nav className="me-auto">
             <Link
               style={{ textDecoration: "none", color: "white", padding: 20 }}
-              to="/flightdetails"
+              to="/"
             >
               Flight Details
             </Link>

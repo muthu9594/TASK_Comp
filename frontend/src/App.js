@@ -13,7 +13,7 @@ function App() {
         <Navbarr />
         <Routes>
           <Route path="/form" element={<Form />} />
-          <Route path="/flightDetails" element={<FlightDetails />} />
+          <Route path="/" element={<FlightDetails />} />
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </Router>
