@@ -36,7 +36,7 @@ const Forms = () => {
     data.departureTime = details.departureTime;
 
     AddDetails(data);
-    navigate("/flightDetails");
+    navigate("/");
     // console.log("see", data);
   };
 
