@@ -30,7 +30,7 @@ app.listen(
   console.log(`Server started on port ${process.env.PORT} `)
 );
 
-const USERNAME = process.env.DB_USERNAME;
-const PASSWORD = process.env.DB_PASSWORD;
+// const USERNAME = process.env.DB_USERNAME;
+// const PASSWORD = process.env.DB_PASSWORD;
 
-Connection(USERNAME, PASSWORD);
+Connection();
